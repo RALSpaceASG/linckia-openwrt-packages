@@ -7,11 +7,11 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=libusb1
+PKG_NAME:=python-libusb1
 PKG_VERSION:=1.4.1
 PKG_RELEASE:=0.1
 
-PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE:=libusb1-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://pypi.python.org/packages/source/l/libusb1
 PKG_MD5SUM:=19c51395c4b2e1d0357000c6018cf65b
 

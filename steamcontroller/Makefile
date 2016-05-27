@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=steamcontroller
 PKG_VERSION:=1.0
-PKG_RELEASE:=0.1
+PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/ynsta/steamcontroller.git
@@ -33,7 +33,7 @@ define Package/steamcontroller
 endef
 
 define Package/steamcontroller/description
-Standalone Steam Controller Driver.
+standalone steam controller driver
 endef
 
 define PyPackage/steamcontroller/filespec

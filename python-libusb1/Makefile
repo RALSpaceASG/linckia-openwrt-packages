@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python-libusb1
 PKG_VERSION:=1.4.1
-PKG_RELEASE:=0.1
+PKG_RELEASE:=1
 
 PKG_SOURCE:=libusb1-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://pypi.python.org/packages/source/l/libusb1
@@ -32,7 +32,7 @@ define Package/python-libusb1
 endef
 
 define Package/python-libusb1/description
-Pure-python wrapper for libusb-1.0.
+pure-python wrapper for libusb-1.0
 endef
 
 define PyPackage/python-libusb1/filespec

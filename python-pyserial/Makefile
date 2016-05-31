@@ -8,14 +8,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python-pyserial
-PKG_VERSION:=3.0.1
+PKG_VERSION:=3.1
 PKG_RELEASE:=2
 PKG_MAINTAINER:=Micke Prag <micke.prag@telldus.se>
 PKG_LICENSE:=Python-2.0
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=http://github.com/pyserial/pyserial.git
-PKG_SOURCE_VERSION:=5524bc075fffd7b79b8747613a913dcea5a80a68
+PKG_SOURCE_VERSION:=c55b5ac2ce72f9e65c2d69fc00e596ce5811894a
 
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION)
 PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.gz

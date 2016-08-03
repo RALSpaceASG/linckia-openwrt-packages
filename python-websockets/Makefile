@@ -39,4 +39,4 @@ define Build/Compile
 	$(call Build/Compile/PyMod,,install --prefix=/usr --root=$(PKG_INSTALL_DIR))
 endef
 
-$(eval $(call BuildPackage,python3-websosckets))
+$(eval $(call BuildPackage,python3-websockets))

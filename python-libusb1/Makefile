@@ -35,12 +35,6 @@ define Package/python-libusb1/description
 pure-python wrapper for libusb-1.0
 endef
 
-define PyPackage/python-libusb1/filespec
-+|$(PYTHON_PKG_DIR)
--|$(PYTHON_PKG_DIR)/testUSB1.py
--|$(PYTHON_PKG_DIR)/examples
-endef
-
 define Build/Compile
 	$(call Build/Compile/PyMod,,install --prefix=/usr --root=$(PKG_INSTALL_DIR))
 endef

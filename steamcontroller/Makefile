@@ -36,10 +36,6 @@ define Package/steamcontroller/description
 standalone steam controller driver
 endef
 
-define PyPackage/steamcontroller/filespec
-+|$(PYTHON_PKG_DIR)
-endef
-
 define Build/Compile
 	$(call Build/Compile/PyMod,,install --prefix=/usr --root=$(PKG_INSTALL_DIR))
 endef

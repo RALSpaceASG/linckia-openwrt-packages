@@ -21,6 +21,8 @@ PKG_LICENSE_FILES:=LICENSE
 PKG_BUILD_DIR:=$(BUILD_DIR)/python3-websockets-$(PKG_VERSION)
 PKG_UNPACK:=tar -C $(PKG_BUILD_DIR) --strip-components=1 -xzf $(DL_DIR)/$(PKG_SOURCE)
 
+PKG_BUILD_DEPENDS:=+python3-setuptools
+
 include $(INCLUDE_DIR)/package.mk
 $(call include_mk, python3-package.mk)
 

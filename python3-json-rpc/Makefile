@@ -12,7 +12,7 @@ PKG_VERSION:=1.10.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=json-rpc-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://files.pythonhosted.org/packages/source/w/json-rpc/
+PKG_SOURCE_URL:=https://files.pythonhosted.org/packages/source/j/json-rpc/
 PKG_MD5SUM:=24e9765de545ed2df6f06e229c88a9c8
 
 PKG_LICENSE:=MIT
